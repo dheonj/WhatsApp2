@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Test from './src/components/Test'
 import ChatListItem from './src/components/ChatListItem';
+import ChatsScreen from './src/screens/ChatsScreen';
 
 // any name when importing a component (with a capital letter) 
 // because the source exports by default
@@ -25,12 +26,11 @@ const chat = {
 export default function App() {
   return (
     <View style={styles.container}>
+        <ChatsScreen />
         {/* <Test/>          */}
         {/* import a component  */}
         {/* {(test)()}  */}
         {/* import a function and use iife */}
-        <ChatListItem chat={chat} />
-        <ChatListItem chat={chat} />
       <StatusBar style="auto" />
     </View>
   );
@@ -38,9 +38,10 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+    paddingVertical:50,
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
+    // alignItems: 'center',
     justifyContent: 'center',
   },
 });
