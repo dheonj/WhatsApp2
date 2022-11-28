@@ -1,7 +1,7 @@
 [
   {
     "id": "m1",
-    "text": "Latest!",
+    "text": "How are you, Lukas!",
     "createdAt": "2022-10-10T12:48:00.000Z",
     "user": {
       "id": "u1",
@@ -115,5 +115,5 @@
       "id": "u1",
       "name": "Vadim"
     }
-  } 
+  }
 ]
