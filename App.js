@@ -4,12 +4,12 @@ import { StyleSheet, Text, View } from 'react-native';
 import ChatListItem from './src/components/ChatListItem';
 import ChatsScreen from './src/screens/ChatsScreen';
 import ChatScreen from './src/screens/ChatScreen';
-
+import Navigator from './src/navigation';
 
 export default function App() {
   return (
     <View style={styles.container}>
-        <ChatScreen />
+      <Navigator/>
       <StatusBar style="auto" />
     </View>
   );
@@ -17,9 +17,9 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    paddingVertical:50,
+    // paddingVertical:50,
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'whitesmoke',
     // alignItems: 'center',
     justifyContent: 'center',
   },

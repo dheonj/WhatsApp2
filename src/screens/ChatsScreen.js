@@ -16,7 +16,7 @@
 
     const styles = StyleSheet.create({
       flatlist:{
-        // backgroundColor:'red',
+        backgroundColor:'white',
       },
 
     })
